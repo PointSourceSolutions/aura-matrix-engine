@@ -51,3 +51,12 @@ pip install -r requirements.txt
 # Run the comparative analysis suite
 python scenarios.py# aura-matrix-engine
 "Computational simulation engine for modeling network phase transitions and systemic momentum."
+
+
+Citation & Academic Context
+
+This computational model serves as the primary technical methodology and empirical verification for the accompanying preprint paper submitted to the Social Science Research Network (SSRN).
+
+    Status: Preprint Draft / Intellectual Property Locked
+
+    Rights: Copyright © 2026. All rights Reserved. Unauthorized replication, commercial distribution, or deployment of this proprietary framework without explicit academic citation is strictly prohibited.
