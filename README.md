@@ -9,7 +9,7 @@ By framing social dynamics and behavioral contagion through the lens of network 
 The Aura Matrix Engine operates on a network graph where individual nodes represent agents (e.g., individuals in a crowd, employees in an organization) and edges represent communication channels. The system simulates macro shifts by tracking two primary phases per discrete time step:
 
 ### 1. The Action Phase (Stochastic Interaction)
-At each time step $t$, every node $i$ evaluates its probability of initiating an interaction ($P_i(t)$) based on its baseline interaction rate ($\rho_i$), current internal energy ($E_i$), and historical momentum ($M_i$):
+At each time step $t$, every node $i$ evaluates its probability of initiating an interaction ($$P_i(t)) based on its baseline interaction rate ($\rho_i$), current internal energy ($E_i$), and historical momentum ($M_i$):
 
 $$P_i(t) = \text{clip}(\rho_i + E_i + M_i, 0.0, 1.0)$$
 
